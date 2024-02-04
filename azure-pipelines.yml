@@ -6,8 +6,8 @@
 trigger:
 - master
 
-pool:
-  vmImage: iainardo-linux
+pool:  iainardo-linux
+#  vmImage: iainardo-linux
 
 steps:
 - script: echo Hello, world!
